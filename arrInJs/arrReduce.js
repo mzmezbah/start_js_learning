@@ -1,7 +1,8 @@
-// what is reduce is acually ddone?
-// => reduce is look like a loop ,in here it takes a callback fun & a an agrument & this arg  value is first is arry 1st num then if we declare it then change it..then this callback fn
-// take four argument & this 4 value first 1 is reduce methods second arg and onther 3 is arr value and index , arry.syntx is
+// what is reduce is actually done?
+// => reduce is look like a loop but it can take a cbfn as an arg & this cbfn also can take 2 param - 1st is accumulator & we can set the value of accumulator as 2nd param of the reduce mehtod arg like the 2nd expmle in here otherwise it can take first element of array as its default value & the 2nd param of cbfn can accept the first element of arry as a value  if we initialize value of accumulator otherwise it takes 2nd element of array as a default value....syntx is
 // here...
+
+//you can also findout array index , value of array as pass the 3rd and 4th param of the reduce method...
 
  var data = [45,64,66,75,75,34,65,76,3,6,3,53,65,33]
 
